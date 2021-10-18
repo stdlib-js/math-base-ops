@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Standard library base math operators.
+> Base (i.e., lower-level) math operators.
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var ns = require( '@stdlib/math-base-ops' );
 
 #### ns
 
-Standard library base math operators.
+Namespace for "base" (i.e., lower-level) math operators.
 
 ```javascript
 var operators = ns;
