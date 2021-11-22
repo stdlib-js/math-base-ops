@@ -57,11 +57,20 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`add( x, y )`][@stdlib/math/base/ops/add]</span><span class="delimiter">: </span><span class="description">compute the sum of two double-precision floating-point numbers.</span>
+-   <span class="signature">[`addf( x, y )`][@stdlib/math/base/ops/addf]</span><span class="delimiter">: </span><span class="description">compute the sum of two single-precision floating-point numbers.</span>
 -   <span class="signature">[`cadd( [out,] re1, im1, re2, im2 )`][@stdlib/math/base/ops/cadd]</span><span class="delimiter">: </span><span class="description">add two complex numbers.</span>
 -   <span class="signature">[`cdiv( [out,] re1, im1, re2, im2 )`][@stdlib/math/base/ops/cdiv]</span><span class="delimiter">: </span><span class="description">divide two complex numbers.</span>
 -   <span class="signature">[`cmul( [out,] re1, im1, re2, im2 )`][@stdlib/math/base/ops/cmul]</span><span class="delimiter">: </span><span class="description">multiply two complex numbers.</span>
 -   <span class="signature">[`cneg( [out,] re, im )`][@stdlib/math/base/ops/cneg]</span><span class="delimiter">: </span><span class="description">negate a complex number.</span>
 -   <span class="signature">[`csub( [out,] re1, im1, re2, im2 )`][@stdlib/math/base/ops/csub]</span><span class="delimiter">: </span><span class="description">subtract two complex numbers.</span>
+-   <span class="signature">[`imul( a, b )`][@stdlib/math/base/ops/imul]</span><span class="delimiter">: </span><span class="description">perform C-like multiplication of two signed 32-bit integers.</span>
+-   <span class="signature">[`imuldw( [out,] a, b )`][@stdlib/math/base/ops/imuldw]</span><span class="delimiter">: </span><span class="description">compute the double word product of two signed 32-bit integers.</span>
+-   <span class="signature">[`mul( x, y )`][@stdlib/math/base/ops/mul]</span><span class="delimiter">: </span><span class="description">multiply two double-precision floating-point numbers.</span>
+-   <span class="signature">[`sub( x, y )`][@stdlib/math/base/ops/sub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision floating-point numbers.</span>
+-   <span class="signature">[`subf( x, y )`][@stdlib/math/base/ops/subf]</span><span class="delimiter">: </span><span class="description">subtract two single-precision floating-point numbers.</span>
+-   <span class="signature">[`umul( a, b )`][@stdlib/math/base/ops/umul]</span><span class="delimiter">: </span><span class="description">perform C-like multiplication of two unsigned 32-bit integers.</span>
+-   <span class="signature">[`umuldw( [out,] a, b )`][@stdlib/math/base/ops/umuldw]</span><span class="delimiter">: </span><span class="description">compute the double word product of two unsigned 32-bit integers.</span>
 
 </div>
 
@@ -161,6 +170,10 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
+[@stdlib/math/base/ops/add]: https://github.com/stdlib-js/math-base-ops-add
+
+[@stdlib/math/base/ops/addf]: https://github.com/stdlib-js/math-base-ops-addf
+
 [@stdlib/math/base/ops/cadd]: https://github.com/stdlib-js/math-base-ops-cadd
 
 [@stdlib/math/base/ops/cdiv]: https://github.com/stdlib-js/math-base-ops-cdiv
@@ -170,6 +183,20 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/ops/cneg]: https://github.com/stdlib-js/math-base-ops-cneg
 
 [@stdlib/math/base/ops/csub]: https://github.com/stdlib-js/math-base-ops-csub
+
+[@stdlib/math/base/ops/imul]: https://github.com/stdlib-js/math-base-ops-imul
+
+[@stdlib/math/base/ops/imuldw]: https://github.com/stdlib-js/math-base-ops-imuldw
+
+[@stdlib/math/base/ops/mul]: https://github.com/stdlib-js/math-base-ops-mul
+
+[@stdlib/math/base/ops/sub]: https://github.com/stdlib-js/math-base-ops-sub
+
+[@stdlib/math/base/ops/subf]: https://github.com/stdlib-js/math-base-ops-subf
+
+[@stdlib/math/base/ops/umul]: https://github.com/stdlib-js/math-base-ops-umul
+
+[@stdlib/math/base/ops/umuldw]: https://github.com/stdlib-js/math-base-ops-umuldw
 
 <!-- </toc-links> -->
 
