@@ -42,6 +42,7 @@
     "@stdlib/math-base-ops-caddf": "^0.0.x",
     "@stdlib/math-base-ops-cdiv": "^0.0.x",
     "@stdlib/math-base-ops-cmul": "^0.0.x",
+    "@stdlib/math-base-ops-cmulf": "^0.0.x",
     "@stdlib/math-base-ops-cneg": "^0.0.x",
     "@stdlib/math-base-ops-csub": "^0.0.x",
     "@stdlib/math-base-ops-imul": "^0.0.x",
