@@ -48,6 +48,7 @@
     "@stdlib/math-base-ops-imul": "^0.0.x",
     "@stdlib/math-base-ops-imuldw": "^0.0.x",
     "@stdlib/math-base-ops-mul": "^0.0.x",
+    "@stdlib/math-base-ops-mulf": "^0.0.x",
     "@stdlib/math-base-ops-sub": "^0.0.x",
     "@stdlib/math-base-ops-subf": "^0.0.x",
     "@stdlib/math-base-ops-umul": "^0.0.x",
