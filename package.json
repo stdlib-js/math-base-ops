@@ -1,0 +1,37 @@
+{
+  "name": "@stdlib/math-base-ops",
+  "version": "0.0.0",
+  "description": "Base (i.e., lower-level) math operators.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-ops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "mathematics",
+    "math",
+    "ops",
+    "operator",
+    "operators",
+    "complex",
+    "cmplx",
+    "namespace",
+    "ns"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
