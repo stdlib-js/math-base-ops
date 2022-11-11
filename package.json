@@ -58,6 +58,7 @@
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.0.x",
+    "@stdlib/assert-has-own-property": "^0.0.x",
     "@stdlib/assert-is-array": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/complex-float32": "^0.0.x",
@@ -94,6 +95,7 @@
     "@stdlib/random-base-randu": "^0.0.x",
     "@stdlib/random-base-uniform": "^0.0.x",
     "@stdlib/string-left-pad": "^0.0.x",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
     "@stdlib/utils-keys": "^0.0.x",
     "@stdlib/utils-try-require": "^0.0.x",
     "proxyquire": "^2.0.0",
