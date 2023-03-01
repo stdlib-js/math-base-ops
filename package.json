@@ -59,7 +59,6 @@
   "devDependencies": {
     "@stdlib/array-float64": "^0.0.6",
     "@stdlib/assert-has-own-property": "^0.0.7",
-    "@stdlib/assert-is-array": "^0.0.7",
     "@stdlib/assert-is-complex128": "^0.0.7",
     "@stdlib/bench": "^0.0.12",
     "@stdlib/complex-float32": "^0.0.7",
