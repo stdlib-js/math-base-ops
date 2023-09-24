@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { add, addf, cadd, caddf, cdiv, cmul, cmulf, cneg, csub, csubf, imul, imuldw, mul, mulf, sub, subf, umul, umuldw } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@esm/index.mjs';
+import { add, addf, cadd, caddf, cdiv, cmul, cmulf, cneg, csub, csubf, imul, imuldw, mul, mulf, sub, subf, umul, umuldw } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@v0.1.0-esm/index.mjs';
 ```
 
 #### ns
@@ -108,7 +108,7 @@ The namespace contains the following functions:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@v0.1.0-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
