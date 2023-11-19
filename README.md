@@ -35,30 +35,20 @@ limitations under the License.
 
 > Base (i.e., lower-level) math operators.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-ops
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/math-base-ops' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { add, add3, addf, cadd, caddf, cdiv, cmul, cmulf, cneg, cnegf, csub, csubf, div, divf, imul, imuldw, mul, mulf, sub, subf, umul, umuldw } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@esm/index.mjs';
 ```
 
 #### ns
@@ -111,11 +101,20 @@ The namespace contains the following functions:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/math-base-ops' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -139,7 +138,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -201,41 +200,41 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/ops/add]: https://github.com/stdlib-js/math-base-ops-add
+[@stdlib/math/base/ops/add]: https://github.com/stdlib-js/math-base-ops-add/tree/esm
 
-[@stdlib/math/base/ops/addf]: https://github.com/stdlib-js/math-base-ops-addf
+[@stdlib/math/base/ops/addf]: https://github.com/stdlib-js/math-base-ops-addf/tree/esm
 
-[@stdlib/math/base/ops/cadd]: https://github.com/stdlib-js/math-base-ops-cadd
+[@stdlib/math/base/ops/cadd]: https://github.com/stdlib-js/math-base-ops-cadd/tree/esm
 
-[@stdlib/math/base/ops/caddf]: https://github.com/stdlib-js/math-base-ops-caddf
+[@stdlib/math/base/ops/caddf]: https://github.com/stdlib-js/math-base-ops-caddf/tree/esm
 
-[@stdlib/math/base/ops/cdiv]: https://github.com/stdlib-js/math-base-ops-cdiv
+[@stdlib/math/base/ops/cdiv]: https://github.com/stdlib-js/math-base-ops-cdiv/tree/esm
 
-[@stdlib/math/base/ops/cmul]: https://github.com/stdlib-js/math-base-ops-cmul
+[@stdlib/math/base/ops/cmul]: https://github.com/stdlib-js/math-base-ops-cmul/tree/esm
 
-[@stdlib/math/base/ops/cmulf]: https://github.com/stdlib-js/math-base-ops-cmulf
+[@stdlib/math/base/ops/cmulf]: https://github.com/stdlib-js/math-base-ops-cmulf/tree/esm
 
-[@stdlib/math/base/ops/cneg]: https://github.com/stdlib-js/math-base-ops-cneg
+[@stdlib/math/base/ops/cneg]: https://github.com/stdlib-js/math-base-ops-cneg/tree/esm
 
-[@stdlib/math/base/ops/csub]: https://github.com/stdlib-js/math-base-ops-csub
+[@stdlib/math/base/ops/csub]: https://github.com/stdlib-js/math-base-ops-csub/tree/esm
 
-[@stdlib/math/base/ops/csubf]: https://github.com/stdlib-js/math-base-ops-csubf
+[@stdlib/math/base/ops/csubf]: https://github.com/stdlib-js/math-base-ops-csubf/tree/esm
 
-[@stdlib/math/base/ops/imul]: https://github.com/stdlib-js/math-base-ops-imul
+[@stdlib/math/base/ops/imul]: https://github.com/stdlib-js/math-base-ops-imul/tree/esm
 
-[@stdlib/math/base/ops/imuldw]: https://github.com/stdlib-js/math-base-ops-imuldw
+[@stdlib/math/base/ops/imuldw]: https://github.com/stdlib-js/math-base-ops-imuldw/tree/esm
 
-[@stdlib/math/base/ops/mul]: https://github.com/stdlib-js/math-base-ops-mul
+[@stdlib/math/base/ops/mul]: https://github.com/stdlib-js/math-base-ops-mul/tree/esm
 
-[@stdlib/math/base/ops/mulf]: https://github.com/stdlib-js/math-base-ops-mulf
+[@stdlib/math/base/ops/mulf]: https://github.com/stdlib-js/math-base-ops-mulf/tree/esm
 
-[@stdlib/math/base/ops/sub]: https://github.com/stdlib-js/math-base-ops-sub
+[@stdlib/math/base/ops/sub]: https://github.com/stdlib-js/math-base-ops-sub/tree/esm
 
-[@stdlib/math/base/ops/subf]: https://github.com/stdlib-js/math-base-ops-subf
+[@stdlib/math/base/ops/subf]: https://github.com/stdlib-js/math-base-ops-subf/tree/esm
 
-[@stdlib/math/base/ops/umul]: https://github.com/stdlib-js/math-base-ops-umul
+[@stdlib/math/base/ops/umul]: https://github.com/stdlib-js/math-base-ops-umul/tree/esm
 
-[@stdlib/math/base/ops/umuldw]: https://github.com/stdlib-js/math-base-ops-umuldw
+[@stdlib/math/base/ops/umuldw]: https://github.com/stdlib-js/math-base-ops-umuldw/tree/esm
 
 <!-- </toc-links> -->
 
