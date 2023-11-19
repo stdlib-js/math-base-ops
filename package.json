@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@stdlib/math-base-ops-add": "^0.1.0",
+    "@stdlib/math-base-ops-add3": "github:stdlib-js/math-base-ops-add3#main",
     "@stdlib/math-base-ops-addf": "^0.1.0",
     "@stdlib/math-base-ops-cadd": "^0.1.0",
     "@stdlib/math-base-ops-caddf": "^0.1.0",
@@ -60,6 +61,7 @@
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
+    "@stdlib/array-base-filled-by": "^0.1.0",
     "@stdlib/array-float64": "^0.1.1",
     "@stdlib/assert-has-own-property": "^0.1.1",
     "@stdlib/assert-is-complex128": "^0.1.1",
