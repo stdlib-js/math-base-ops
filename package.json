@@ -38,6 +38,8 @@
   "dependencies": {
     "@stdlib/math-base-ops-add": "^0.1.0",
     "@stdlib/math-base-ops-add3": "github:stdlib-js/math-base-ops-add3#main",
+    "@stdlib/math-base-ops-add4": "github:stdlib-js/math-base-ops-add4#main",
+    "@stdlib/math-base-ops-add5": "github:stdlib-js/math-base-ops-add5#main",
     "@stdlib/math-base-ops-addf": "^0.1.0",
     "@stdlib/math-base-ops-cadd": "^0.1.0",
     "@stdlib/math-base-ops-caddf": "^0.1.0",
