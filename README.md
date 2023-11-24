@@ -78,6 +78,8 @@ The namespace contains the following functions:
 
 -   <span class="signature">[`add( x, y )`][@stdlib/math/base/ops/add]</span><span class="delimiter">: </span><span class="description">compute the sum of two double-precision floating-point numbers.</span>
 -   <span class="signature">[`add3( x, y, z )`][@stdlib/math/base/ops/add3]</span><span class="delimiter">: </span><span class="description">compute the sum of three double-precision floating-point numbers.</span>
+-   <span class="signature">[`add4( x, y, z, w )`][@stdlib/math/base/ops/add4]</span><span class="delimiter">: </span><span class="description">compute the sum of four double-precision floating-point numbers.</span>
+-   <span class="signature">[`add5( x, y, z, w, u )`][@stdlib/math/base/ops/add5]</span><span class="delimiter">: </span><span class="description">compute the sum of five double-precision floating-point numbers.</span>
 -   <span class="signature">[`addf( x, y )`][@stdlib/math/base/ops/addf]</span><span class="delimiter">: </span><span class="description">compute the sum of two single-precision floating-point numbers.</span>
 -   <span class="signature">[`cadd( z1, z2 )`][@stdlib/math/base/ops/cadd]</span><span class="delimiter">: </span><span class="description">add two double-precision complex floating-point numbers.</span>
 -   <span class="signature">[`caddf( z1, z2 )`][@stdlib/math/base/ops/caddf]</span><span class="delimiter">: </span><span class="description">add two single-precision complex floating-point numbers.</span>
@@ -208,6 +210,10 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/ops/add]: https://github.com/stdlib-js/math-base-ops-add
 
 [@stdlib/math/base/ops/add3]: https://github.com/stdlib-js/math-base-ops-add3
+
+[@stdlib/math/base/ops/add4]: https://github.com/stdlib-js/math-base-ops-add4
+
+[@stdlib/math/base/ops/add5]: https://github.com/stdlib-js/math-base-ops-add5
 
 [@stdlib/math/base/ops/addf]: https://github.com/stdlib-js/math-base-ops-addf
 
