@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-17)
+## Unreleased (2024-07-18)
 
 <section class="packages">
 
@@ -25,6 +25,20 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`60c4a36`](https://github.com/stdlib-js/stdlib/commit/60c4a36e189ddaf4aba2d9f4096e7a066d5dcbea): remove `math/base/ops/cadd` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex-float64/base/add` which provides the same API and
+    implementation.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -47,6 +61,20 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`3e09994`](https://github.com/stdlib-js/stdlib/commit/3e099945fc7bb4e638c7ed407b26cc51d849657b): remove `math/base/ops/caddf` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex-float32/base/add` which provides the same API and
+    implementation.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -213,6 +241,26 @@
 
 <!-- /.packages -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`60c4a36`](https://github.com/stdlib-js/stdlib/commit/60c4a36e189ddaf4aba2d9f4096e7a066d5dcbea): remove `math/base/ops/cadd` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex-float64/base/add` which provides the same API and
+    implementation.
+
+-   [`3e09994`](https://github.com/stdlib-js/stdlib/commit/3e099945fc7bb4e638c7ed407b26cc51d849657b): remove `math/base/ops/caddf` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex-float32/base/add` which provides the same API and
+    implementation.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="contributors">
 
 ### Contributors
@@ -233,6 +281,10 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`60c4a36`](https://github.com/stdlib-js/stdlib/commit/60c4a36e189ddaf4aba2d9f4096e7a066d5dcbea) - **remove:** remove `math/base/ops/cadd` _(by Athan Reines)_
+-   [`0406147`](https://github.com/stdlib-js/stdlib/commit/04061476d1036e1b8b786736b1ba1653eddff1ef) - **refactor:** update paths _(by Athan Reines)_
+-   [`3e09994`](https://github.com/stdlib-js/stdlib/commit/3e099945fc7bb4e638c7ed407b26cc51d849657b) - **remove:** remove `math/base/ops/caddf` _(by Athan Reines)_
+-   [`b9703b5`](https://github.com/stdlib-js/stdlib/commit/b9703b569dc2f0a67e604e388a0d188b08138b48) - **refactor:** update paths _(by Athan Reines)_
 -   [`32bbcb3`](https://github.com/stdlib-js/stdlib/commit/32bbcb3b3dae1f028fd18166ee7875a93d44d0ee) - **refactor:** update paths _(by Athan Reines)_
 -   [`8d4c46b`](https://github.com/stdlib-js/stdlib/commit/8d4c46b10ca912401e0ff0caa37a17cd3c443c2f) - **refactor:** update paths _(by Athan Reines)_
 -   [`ed9c0a5`](https://github.com/stdlib-js/stdlib/commit/ed9c0a5e55ff09af3dd6af8c38615480e2c1828e) - **refactor:** update paths _(by Athan Reines)_
