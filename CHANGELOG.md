@@ -121,6 +121,20 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`b82c6f0`](https://github.com/stdlib-js/stdlib/commit/b82c6f020ef6fe6b045fc71ccf773bb18c451303): remove `math/base/ops/cmul` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex-float64/base/mul` which provides the same API and
+    implementation.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -142,6 +156,20 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`4aa299e`](https://github.com/stdlib-js/stdlib/commit/4aa299e35880a36de22c0c483bb128057b6e3784): remove `math/base/ops/cmulf` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex-float32/base/mul` which provides the same API and
+    implementation.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -245,6 +273,18 @@
 
 ### BREAKING CHANGES
 
+-   [`b82c6f0`](https://github.com/stdlib-js/stdlib/commit/b82c6f020ef6fe6b045fc71ccf773bb18c451303): remove `math/base/ops/cmul` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex-float64/base/mul` which provides the same API and
+    implementation.
+
+-   [`4aa299e`](https://github.com/stdlib-js/stdlib/commit/4aa299e35880a36de22c0c483bb128057b6e3784): remove `math/base/ops/cmulf` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex-float32/base/mul` which provides the same API and
+    implementation.
+
 -   [`60c4a36`](https://github.com/stdlib-js/stdlib/commit/60c4a36e189ddaf4aba2d9f4096e7a066d5dcbea): remove `math/base/ops/cadd` 
 
     -   To migrate, users should update their require/import paths to use
@@ -281,6 +321,10 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b82c6f0`](https://github.com/stdlib-js/stdlib/commit/b82c6f020ef6fe6b045fc71ccf773bb18c451303) - **remove:** remove `math/base/ops/cmul` _(by Athan Reines)_
+-   [`e3a3679`](https://github.com/stdlib-js/stdlib/commit/e3a3679f1e733cf02ce47cdc4bd0137bd37bef41) - **refactor:** update paths _(by Athan Reines)_
+-   [`4aa299e`](https://github.com/stdlib-js/stdlib/commit/4aa299e35880a36de22c0c483bb128057b6e3784) - **remove:** remove `math/base/ops/cmulf` _(by Athan Reines)_
+-   [`ddd4403`](https://github.com/stdlib-js/stdlib/commit/ddd44032f9d8a6d318c80e3b239ff72280ffc599) - **refactor:** update paths _(by Athan Reines)_
 -   [`60c4a36`](https://github.com/stdlib-js/stdlib/commit/60c4a36e189ddaf4aba2d9f4096e7a066d5dcbea) - **remove:** remove `math/base/ops/cadd` _(by Athan Reines)_
 -   [`0406147`](https://github.com/stdlib-js/stdlib/commit/04061476d1036e1b8b786736b1ba1653eddff1ef) - **refactor:** update paths _(by Athan Reines)_
 -   [`3e09994`](https://github.com/stdlib-js/stdlib/commit/3e099945fc7bb4e638c7ed407b26cc51d849657b) - **remove:** remove `math/base/ops/caddf` _(by Athan Reines)_
