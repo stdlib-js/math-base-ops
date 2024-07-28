@@ -35,32 +35,20 @@ limitations under the License.
 
 > Base (i.e., lower-level) math operators.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-ops
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/math-base-ops' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { add, add3, add4, add5, addf, cadd, caddf, cdiv, cmul, cmulf, cneg, cnegf, csub, csubf, div, divf, imul, imuldw, mul, mulf, sub, subf, umul, umuldw } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@deno/mod.js';
 ```
 
 #### ns
@@ -116,8 +104,8 @@ The namespace contains the following functions:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var Complex128 = require( '@stdlib/complex-float64-ctor' );
-var ns = require( '@stdlib/math-base-ops' );
+import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@deno/mod.js';
 
 // Operations for double-precision floating point numbers:
 console.log( ns.add( 1.25, 0.45 ) );
@@ -176,7 +164,7 @@ console.log( ns.imuldw( 0x80000000|0, 0x40000000|0 ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -241,45 +229,45 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/ops/add]: https://github.com/stdlib-js/math-base-ops-add
+[@stdlib/math/base/ops/add]: https://github.com/stdlib-js/math-base-ops-add/tree/deno
 
-[@stdlib/math/base/ops/add3]: https://github.com/stdlib-js/math-base-ops-add3
+[@stdlib/math/base/ops/add3]: https://github.com/stdlib-js/math-base-ops-add3/tree/deno
 
-[@stdlib/math/base/ops/add4]: https://github.com/stdlib-js/math-base-ops-add4
+[@stdlib/math/base/ops/add4]: https://github.com/stdlib-js/math-base-ops-add4/tree/deno
 
-[@stdlib/math/base/ops/add5]: https://github.com/stdlib-js/math-base-ops-add5
+[@stdlib/math/base/ops/add5]: https://github.com/stdlib-js/math-base-ops-add5/tree/deno
 
-[@stdlib/math/base/ops/addf]: https://github.com/stdlib-js/math-base-ops-addf
+[@stdlib/math/base/ops/addf]: https://github.com/stdlib-js/math-base-ops-addf/tree/deno
 
-[@stdlib/math/base/ops/cdiv]: https://github.com/stdlib-js/math-base-ops-cdiv
+[@stdlib/math/base/ops/cdiv]: https://github.com/stdlib-js/math-base-ops-cdiv/tree/deno
 
-[@stdlib/math/base/ops/cneg]: https://github.com/stdlib-js/math-base-ops-cneg
+[@stdlib/math/base/ops/cneg]: https://github.com/stdlib-js/math-base-ops-cneg/tree/deno
 
-[@stdlib/math/base/ops/cnegf]: https://github.com/stdlib-js/math-base-ops-cnegf
+[@stdlib/math/base/ops/cnegf]: https://github.com/stdlib-js/math-base-ops-cnegf/tree/deno
 
-[@stdlib/math/base/ops/csub]: https://github.com/stdlib-js/math-base-ops-csub
+[@stdlib/math/base/ops/csub]: https://github.com/stdlib-js/math-base-ops-csub/tree/deno
 
-[@stdlib/math/base/ops/csubf]: https://github.com/stdlib-js/math-base-ops-csubf
+[@stdlib/math/base/ops/csubf]: https://github.com/stdlib-js/math-base-ops-csubf/tree/deno
 
-[@stdlib/math/base/ops/div]: https://github.com/stdlib-js/math-base-ops-div
+[@stdlib/math/base/ops/div]: https://github.com/stdlib-js/math-base-ops-div/tree/deno
 
-[@stdlib/math/base/ops/divf]: https://github.com/stdlib-js/math-base-ops-divf
+[@stdlib/math/base/ops/divf]: https://github.com/stdlib-js/math-base-ops-divf/tree/deno
 
-[@stdlib/math/base/ops/imul]: https://github.com/stdlib-js/math-base-ops-imul
+[@stdlib/math/base/ops/imul]: https://github.com/stdlib-js/math-base-ops-imul/tree/deno
 
-[@stdlib/math/base/ops/imuldw]: https://github.com/stdlib-js/math-base-ops-imuldw
+[@stdlib/math/base/ops/imuldw]: https://github.com/stdlib-js/math-base-ops-imuldw/tree/deno
 
-[@stdlib/math/base/ops/mul]: https://github.com/stdlib-js/math-base-ops-mul
+[@stdlib/math/base/ops/mul]: https://github.com/stdlib-js/math-base-ops-mul/tree/deno
 
-[@stdlib/math/base/ops/mulf]: https://github.com/stdlib-js/math-base-ops-mulf
+[@stdlib/math/base/ops/mulf]: https://github.com/stdlib-js/math-base-ops-mulf/tree/deno
 
-[@stdlib/math/base/ops/sub]: https://github.com/stdlib-js/math-base-ops-sub
+[@stdlib/math/base/ops/sub]: https://github.com/stdlib-js/math-base-ops-sub/tree/deno
 
-[@stdlib/math/base/ops/subf]: https://github.com/stdlib-js/math-base-ops-subf
+[@stdlib/math/base/ops/subf]: https://github.com/stdlib-js/math-base-ops-subf/tree/deno
 
-[@stdlib/math/base/ops/umul]: https://github.com/stdlib-js/math-base-ops-umul
+[@stdlib/math/base/ops/umul]: https://github.com/stdlib-js/math-base-ops-umul/tree/deno
 
-[@stdlib/math/base/ops/umuldw]: https://github.com/stdlib-js/math-base-ops-umuldw
+[@stdlib/math/base/ops/umuldw]: https://github.com/stdlib-js/math-base-ops-umuldw/tree/deno
 
 <!-- </toc-links> -->
 
