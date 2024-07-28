@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-ops/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { add, add3, add4, add5, addf, cadd, caddf, cdiv, cmul, cmulf, cneg, cnegf, csub, csubf, div, divf, imul, imuldw, mul, mulf, sub, subf, umul, umuldw } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@v0.3.0-deno/mod.js';
+import { add, add3, add4, add5, addf, cadd, caddf, cdiv, cmul, cmulf, cneg, cnegf, csub, csubf, div, divf, imul, imuldw, mul, mulf, sub, subf, umul, umuldw } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@deno/mod.js';
 ```
 
 #### ns
@@ -105,7 +110,7 @@ The namespace contains the following functions:
 
 ```javascript
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@v0.3.0-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@deno/mod.js';
 
 // Operations for double-precision floating point numbers:
 console.log( ns.add( 1.25, 0.45 ) );
