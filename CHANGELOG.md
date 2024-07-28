@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-07-21)
+## 0.3.0 (2024-07-28)
 
 <section class="packages">
 
@@ -40,6 +40,66 @@
 <!-- /.breaking-changes -->
 
 </details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add-unreleased">
+
+#### [@stdlib/math/base/ops/add](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add3-unreleased">
+
+#### [@stdlib/math/base/ops/add3](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add3)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add4-unreleased">
+
+#### [@stdlib/math/base/ops/add4](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add4)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add5-unreleased">
+
+#### [@stdlib/math/base/ops/add5](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add5)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-addf-unreleased">
+
+#### [@stdlib/math/base/ops/addf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/addf)
+
+<details>
+
+No changes reported for this release.</details>
 
 </section>
 
@@ -300,6 +360,126 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-ops-div-unreleased">
+
+#### [@stdlib/math/base/ops/div](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/div)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-divf-unreleased">
+
+#### [@stdlib/math/base/ops/divf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/divf)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-imul-unreleased">
+
+#### [@stdlib/math/base/ops/imul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/imul)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-imuldw-unreleased">
+
+#### [@stdlib/math/base/ops/imuldw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/imuldw)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-mul-unreleased">
+
+#### [@stdlib/math/base/ops/mul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/mul)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-mulf-unreleased">
+
+#### [@stdlib/math/base/ops/mulf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/mulf)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-sub-unreleased">
+
+#### [@stdlib/math/base/ops/sub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/sub)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-subf-unreleased">
+
+#### [@stdlib/math/base/ops/subf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/subf)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-umul-unreleased">
+
+#### [@stdlib/math/base/ops/umul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/umul)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-umuldw-unreleased">
+
+#### [@stdlib/math/base/ops/umuldw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/umuldw)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -361,6 +541,8 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
+-   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 -   [`9dc29b4`](https://github.com/stdlib-js/stdlib/commit/9dc29b4d2e6eb5ba0b2625c3bfe9f50034a3ed99) - **docs:** add sub-namespace sections and update namespace table of contents _(by Philipp Burckhardt)_
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - **feat:** update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628) _(by stdlib-bot, Athan Reines)_
 -   [`b82c6f0`](https://github.com/stdlib-js/stdlib/commit/b82c6f020ef6fe6b045fc71ccf773bb18c451303) - **remove:** remove `math/base/ops/cmul` _(by Athan Reines)_
@@ -402,7 +584,29 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ### Packages
 
-<section class="package" id="math-base-ops-v0.2.1">
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.2.0 (2024-02-14)
+
+<section class="packages">
+
+### Packages
+
+<section class="package" id="math-base-ops-v0.2.0">
 
 #### [@stdlib/math/base/ops](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops)
 
@@ -420,6 +624,408 @@ A total of 3 people contributed to this release. Thank you to the following cont
 -   [`252ce69`](https://github.com/stdlib-js/stdlib/commit/252ce69eebed888c9fd70e7d7cb774892d49542a) - add `divf` to namespace
 -   [`4bcbffb`](https://github.com/stdlib-js/stdlib/commit/4bcbffbe6621aabfde24fa5382440c2b4a434165) - add `cnegf` to namespace
 -   [`749152f`](https://github.com/stdlib-js/stdlib/commit/749152f1c8d8f39b4d2f8e2f45ac8ab74dbb5a3c) - add `div` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add-v0.2.0">
+
+#### [@stdlib/math/base/ops/add](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add3-v0.2.0">
+
+#### [@stdlib/math/base/ops/add3](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add3)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b1b4604`](https://github.com/stdlib-js/stdlib/commit/b1b46040bff6549e7d3652bacfb87641a169772c) - add `math/base/ops/add3`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add4-v0.2.0">
+
+#### [@stdlib/math/base/ops/add4](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add4)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b88e712`](https://github.com/stdlib-js/stdlib/commit/b88e7127d936b4d55e02afa8a47bd7a1302c0369) - add `math/base/ops/add4`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add5-v0.2.0">
+
+#### [@stdlib/math/base/ops/add5](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add5)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b11b3fb`](https://github.com/stdlib-js/stdlib/commit/b11b3fbf45728f7456757b5147e45f17f4bf49f1) - add `math/base/ops/add5`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-addf-v0.2.0">
+
+#### [@stdlib/math/base/ops/addf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/addf)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-cadd-v0.2.0">
+
+#### [@stdlib/math/base/ops/cadd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cadd)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-caddf-v0.2.0">
+
+#### [@stdlib/math/base/ops/caddf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/caddf)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-cdiv-v0.2.0">
+
+#### [@stdlib/math/base/ops/cdiv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cdiv)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-cmul-v0.2.0">
+
+#### [@stdlib/math/base/ops/cmul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cmul)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-cmulf-v0.2.0">
+
+#### [@stdlib/math/base/ops/cmulf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cmulf)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-cneg-v0.2.0">
+
+#### [@stdlib/math/base/ops/cneg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cneg)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-cnegf-v0.2.0">
+
+#### [@stdlib/math/base/ops/cnegf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cnegf)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-csub-v0.2.0">
+
+#### [@stdlib/math/base/ops/csub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/csub)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-csubf-v0.2.0">
+
+#### [@stdlib/math/base/ops/csubf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/csubf)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-div-v0.2.0">
+
+#### [@stdlib/math/base/ops/div](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/div)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b28d2a9`](https://github.com/stdlib-js/stdlib/commit/b28d2a9660fa7190070a17305e9ffdf694be74bf) - add `math/base/ops/div`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-divf-v0.2.0">
+
+#### [@stdlib/math/base/ops/divf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/divf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a967398`](https://github.com/stdlib-js/stdlib/commit/a967398cd29d0dd88ab2121e35bc4909e455b835) - add `math/base/ops/divf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-imul-v0.2.0">
+
+#### [@stdlib/math/base/ops/imul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/imul)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-imuldw-v0.2.0">
+
+#### [@stdlib/math/base/ops/imuldw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/imuldw)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-mul-v0.2.0">
+
+#### [@stdlib/math/base/ops/mul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/mul)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-mulf-v0.2.0">
+
+#### [@stdlib/math/base/ops/mulf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/mulf)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-sub-v0.2.0">
+
+#### [@stdlib/math/base/ops/sub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/sub)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-subf-v0.2.0">
+
+#### [@stdlib/math/base/ops/subf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/subf)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`ed8a998`](https://github.com/stdlib-js/stdlib/commit/ed8a998f95cebd180f2a974548379a6335988970) - **docs:** update related packages sections [(#1296)](https://github.com/stdlib-js/stdlib/pull/1296) _(by stdlib-bot)_
+-   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
+-   [`9b87012`](https://github.com/stdlib-js/stdlib/commit/9b87012e598bd0d2692af5d59332cb0e2231e9e8) - **docs:** update related packages sections [(#1243)](https://github.com/stdlib-js/stdlib/pull/1243) _(by stdlib-bot)_
+-   [`1879534`](https://github.com/stdlib-js/stdlib/commit/18795348ac0c51d3b13c1b26c0f5921ec5fd010c) - **docs:** update related packages sections [(#1179)](https://github.com/stdlib-js/stdlib/pull/1179) _(by stdlib-bot)_
+-   [`4d6b104`](https://github.com/stdlib-js/stdlib/commit/4d6b104a0309b9a016700badd64b137ff384de52) - **docs:** update related packages sections [(#1172)](https://github.com/stdlib-js/stdlib/pull/1172) _(by stdlib-bot, Athan Reines)_
+-   [`783804d`](https://github.com/stdlib-js/stdlib/commit/783804dbc9b3899c5227c5593e0ca1e8a6a9f195) - **feat:** update namespace TypeScript declarations [(#1170)](https://github.com/stdlib-js/stdlib/pull/1170) _(by stdlib-bot, Athan Reines)_
+-   [`d575e8b`](https://github.com/stdlib-js/stdlib/commit/d575e8b063a37d90c3178fcff7b425314ae73c98) - **docs:** update related packages sections [(#1167)](https://github.com/stdlib-js/stdlib/pull/1167) _(by stdlib-bot)_
+-   [`74bf172`](https://github.com/stdlib-js/stdlib/commit/74bf172cde4e19feaf4840c9e03b904bf9819934) - **docs:** update related packages sections [(#1165)](https://github.com/stdlib-js/stdlib/pull/1165) _(by stdlib-bot)_
+-   [`57d81e4`](https://github.com/stdlib-js/stdlib/commit/57d81e4c196065f6680f08f22aeccfdc6e590b8f) - **docs:** update related packages sections [(#1151)](https://github.com/stdlib-js/stdlib/pull/1151) _(by stdlib-bot)_
+-   [`73f98e4`](https://github.com/stdlib-js/stdlib/commit/73f98e4e8dea53ece4a617b042f9d817643b4850) - **docs:** update related packages sections [(#1150)](https://github.com/stdlib-js/stdlib/pull/1150) _(by stdlib-bot)_
+-   [`78a556e`](https://github.com/stdlib-js/stdlib/commit/78a556efa2f1da29eb9081d393f5768ad1518117) - **docs:** update related packages sections [(#1145)](https://github.com/stdlib-js/stdlib/pull/1145) _(by stdlib-bot)_
+-   [`1b31b43`](https://github.com/stdlib-js/stdlib/commit/1b31b437442c7d861aadf0e5ee00bb86cc191982) - **docs:** update namespace table of contents [(#1138)](https://github.com/stdlib-js/stdlib/pull/1138) _(by stdlib-bot, Athan Reines)_
+-   [`5d6b573`](https://github.com/stdlib-js/stdlib/commit/5d6b573040bf6551f3f460ba9570ea5d9567cb84) - **feat:** add `add5` to namespace _(by Athan Reines)_
+-   [`b11b3fb`](https://github.com/stdlib-js/stdlib/commit/b11b3fbf45728f7456757b5147e45f17f4bf49f1) - **feat:** add `math/base/ops/add5` _(by Athan Reines)_
+-   [`1cba14e`](https://github.com/stdlib-js/stdlib/commit/1cba14e2370f9a50078713f9ac8ad1bf119bc01c) - **feat:** add `add4` to namespace _(by Athan Reines)_
+-   [`b88e712`](https://github.com/stdlib-js/stdlib/commit/b88e7127d936b4d55e02afa8a47bd7a1302c0369) - **feat:** add `math/base/ops/add4` _(by Athan Reines)_
+-   [`9dd4da3`](https://github.com/stdlib-js/stdlib/commit/9dd4da3d3eff22c863ed009cc6a909ad524e2b83) - **docs:** update namespace table of contents [(#1136)](https://github.com/stdlib-js/stdlib/pull/1136) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`5c48417`](https://github.com/stdlib-js/stdlib/commit/5c48417bea1eb163504f2b38d6e4ff48fd269382) - **feat:** update namespace TypeScript declarations [(#1134)](https://github.com/stdlib-js/stdlib/pull/1134) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`4dd6a68`](https://github.com/stdlib-js/stdlib/commit/4dd6a6836e33c7646ae7a6ce1d629b66b1b96e76) - **feat:** add `add3` to namespace _(by Athan Reines)_
+-   [`b1b4604`](https://github.com/stdlib-js/stdlib/commit/b1b46040bff6549e7d3652bacfb87641a169772c) - **feat:** add `math/base/ops/add3` _(by Athan Reines)_
+-   [`252ce69`](https://github.com/stdlib-js/stdlib/commit/252ce69eebed888c9fd70e7d7cb774892d49542a) - **feat:** add `divf` to namespace _(by Athan Reines)_
+-   [`a967398`](https://github.com/stdlib-js/stdlib/commit/a967398cd29d0dd88ab2121e35bc4909e455b835) - **feat:** add `math/base/ops/divf` _(by Athan Reines)_
+-   [`942be90`](https://github.com/stdlib-js/stdlib/commit/942be9085906fa7e87fa41fc5486a7a0d4d42953) - **docs:** remove duplicate minus sign _(by Athan Reines)_
+-   [`4bcbffb`](https://github.com/stdlib-js/stdlib/commit/4bcbffbe6621aabfde24fa5382440c2b4a434165) - **feat:** add `cnegf` to namespace _(by Athan Reines)_
+-   [`749152f`](https://github.com/stdlib-js/stdlib/commit/749152f1c8d8f39b4d2f8e2f45ac8ab74dbb5a3c) - **feat:** add `div` to namespace _(by Athan Reines)_
+-   [`b28d2a9`](https://github.com/stdlib-js/stdlib/commit/b28d2a9660fa7190070a17305e9ffdf694be74bf) - **feat:** add `math/base/ops/div` _(by Athan Reines)_
+-   [`37c6c77`](https://github.com/stdlib-js/stdlib/commit/37c6c77ce78430486c95f3034dd1c836fac8b65d) - **style:** resolve C lint errors _(by Athan Reines)_
+-   [`9502ed2`](https://github.com/stdlib-js/stdlib/commit/9502ed27e2853e312c556a48bdd7775095e66709) - **build:** replace tslint directive with eslint equivalent _(by Philipp Burckhardt)_
+-   [`7eb7d96`](https://github.com/stdlib-js/stdlib/commit/7eb7d96f3860d0b1229b905caceb1b6641ee43c5) - **docs:** update links _(by Athan Reines)_
+-   [`d73bbf4`](https://github.com/stdlib-js/stdlib/commit/d73bbf43d222f935085f8ecf7526e5f57835f74e) - **build:** replace lint directives _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.1.0 (2023-09-24)
+
+<section class="packages">
+
+### Packages
+
+<section class="package" id="math-base-ops-v0.1.0">
+
+#### [@stdlib/math/base/ops](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops)
+
+<details>
+
+<section class="features">
+
+##### Features
+
 -   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
 
 </section>
@@ -445,7 +1051,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-add-v0.2.1">
+<section class="package" id="math-base-ops-add-v0.1.0">
 
 #### [@stdlib/math/base/ops/add](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add)
 
@@ -480,73 +1086,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-add3-v0.2.1">
-
-#### [@stdlib/math/base/ops/add3](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add3)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`b1b4604`](https://github.com/stdlib-js/stdlib/commit/b1b46040bff6549e7d3652bacfb87641a169772c) - add `math/base/ops/add3`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-ops-add4-v0.2.1">
-
-#### [@stdlib/math/base/ops/add4](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add4)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`b88e712`](https://github.com/stdlib-js/stdlib/commit/b88e7127d936b4d55e02afa8a47bd7a1302c0369) - add `math/base/ops/add4`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-ops-add5-v0.2.1">
-
-#### [@stdlib/math/base/ops/add5](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add5)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`b11b3fb`](https://github.com/stdlib-js/stdlib/commit/b11b3fbf45728f7456757b5147e45f17f4bf49f1) - add `math/base/ops/add5`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-ops-addf-v0.2.1">
+<section class="package" id="math-base-ops-addf-v0.1.0">
 
 #### [@stdlib/math/base/ops/addf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/addf)
 
@@ -581,7 +1121,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cadd-v0.2.1">
+<section class="package" id="math-base-ops-cadd-v0.1.0">
 
 #### [@stdlib/math/base/ops/cadd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cadd)
 
@@ -626,7 +1166,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-caddf-v0.2.1">
+<section class="package" id="math-base-ops-caddf-v0.1.0">
 
 #### [@stdlib/math/base/ops/caddf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/caddf)
 
@@ -671,7 +1211,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cdiv-v0.2.1">
+<section class="package" id="math-base-ops-cdiv-v0.1.0">
 
 #### [@stdlib/math/base/ops/cdiv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cdiv)
 
@@ -717,7 +1257,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cmul-v0.2.1">
+<section class="package" id="math-base-ops-cmul-v0.1.0">
 
 #### [@stdlib/math/base/ops/cmul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cmul)
 
@@ -762,7 +1302,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cmulf-v0.2.1">
+<section class="package" id="math-base-ops-cmulf-v0.1.0">
 
 #### [@stdlib/math/base/ops/cmulf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cmulf)
 
@@ -807,7 +1347,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cneg-v0.2.1">
+<section class="package" id="math-base-ops-cneg-v0.1.0">
 
 #### [@stdlib/math/base/ops/cneg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cneg)
 
@@ -852,7 +1392,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cnegf-v0.2.1">
+<section class="package" id="math-base-ops-cnegf-v0.1.0">
 
 #### [@stdlib/math/base/ops/cnegf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cnegf)
 
@@ -897,7 +1437,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-csub-v0.2.1">
+<section class="package" id="math-base-ops-csub-v0.1.0">
 
 #### [@stdlib/math/base/ops/csub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/csub)
 
@@ -942,7 +1482,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-csubf-v0.2.1">
+<section class="package" id="math-base-ops-csubf-v0.1.0">
 
 #### [@stdlib/math/base/ops/csubf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/csubf)
 
@@ -987,51 +1527,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-div-v0.2.1">
-
-#### [@stdlib/math/base/ops/div](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/div)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`b28d2a9`](https://github.com/stdlib-js/stdlib/commit/b28d2a9660fa7190070a17305e9ffdf694be74bf) - add `math/base/ops/div`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-ops-divf-v0.2.1">
-
-#### [@stdlib/math/base/ops/divf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/divf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`a967398`](https://github.com/stdlib-js/stdlib/commit/a967398cd29d0dd88ab2121e35bc4909e455b835) - add `math/base/ops/divf`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-ops-imul-v0.2.1">
+<section class="package" id="math-base-ops-imul-v0.1.0">
 
 #### [@stdlib/math/base/ops/imul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/imul)
 
@@ -1066,7 +1562,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-imuldw-v0.2.1">
+<section class="package" id="math-base-ops-imuldw-v0.1.0">
 
 #### [@stdlib/math/base/ops/imuldw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/imuldw)
 
@@ -1111,7 +1607,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-mul-v0.2.1">
+<section class="package" id="math-base-ops-mul-v0.1.0">
 
 #### [@stdlib/math/base/ops/mul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/mul)
 
@@ -1146,7 +1642,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-mulf-v0.2.1">
+<section class="package" id="math-base-ops-mulf-v0.1.0">
 
 #### [@stdlib/math/base/ops/mulf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/mulf)
 
@@ -1181,7 +1677,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-sub-v0.2.1">
+<section class="package" id="math-base-ops-sub-v0.1.0">
 
 #### [@stdlib/math/base/ops/sub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/sub)
 
@@ -1216,7 +1712,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-subf-v0.2.1">
+<section class="package" id="math-base-ops-subf-v0.1.0">
 
 #### [@stdlib/math/base/ops/subf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/subf)
 
@@ -1251,7 +1747,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-umul-v0.2.1">
+<section class="package" id="math-base-ops-umul-v0.1.0">
 
 #### [@stdlib/math/base/ops/umul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/umul)
 
@@ -1286,7 +1782,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-umuldw-v0.2.1">
+<section class="package" id="math-base-ops-umuldw-v0.1.0">
 
 #### [@stdlib/math/base/ops/umuldw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/umuldw)
 
@@ -1352,9 +1848,8 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
--   Athan Reines
 -   Athan Reines
 -   Philipp Burckhardt
 -   Stephannie Jiménez Gacha
@@ -1369,36 +1864,6 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`ed8a998`](https://github.com/stdlib-js/stdlib/commit/ed8a998f95cebd180f2a974548379a6335988970) - **docs:** update related packages sections [(##1296)](#1296) _(by stdlib-bot)_
--   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
--   [`9b87012`](https://github.com/stdlib-js/stdlib/commit/9b87012e598bd0d2692af5d59332cb0e2231e9e8) - **docs:** update related packages sections [(#1243)](https://github.com/stdlib-js/stdlib/pull/1243) _(by stdlib-bot)_
--   [`1879534`](https://github.com/stdlib-js/stdlib/commit/18795348ac0c51d3b13c1b26c0f5921ec5fd010c) - **docs:** update related packages sections [(##1179)](#1179) _(by stdlib-bot)_
--   [`4d6b104`](https://github.com/stdlib-js/stdlib/commit/4d6b104a0309b9a016700badd64b137ff384de52) - **docs:** update related packages sections [(#1172)](https://github.com/stdlib-js/stdlib/pull/1172) _(by stdlib-bot, Athan Reines)_
--   [`783804d`](https://github.com/stdlib-js/stdlib/commit/783804dbc9b3899c5227c5593e0ca1e8a6a9f195) - **feat:** update namespace TypeScript declarations [(#1170)](https://github.com/stdlib-js/stdlib/pull/1170) _(by stdlib-bot, Athan Reines)_
--   [`d575e8b`](https://github.com/stdlib-js/stdlib/commit/d575e8b063a37d90c3178fcff7b425314ae73c98) - **docs:** update related packages sections [(##1167)](#1167) _(by stdlib-bot)_
--   [`74bf172`](https://github.com/stdlib-js/stdlib/commit/74bf172cde4e19feaf4840c9e03b904bf9819934) - **docs:** update related packages sections [(##1165)](#1165) _(by stdlib-bot)_
--   [`57d81e4`](https://github.com/stdlib-js/stdlib/commit/57d81e4c196065f6680f08f22aeccfdc6e590b8f) - **docs:** update related packages sections [(#1151)](https://github.com/stdlib-js/stdlib/pull/1151) _(by stdlib-bot)_
--   [`73f98e4`](https://github.com/stdlib-js/stdlib/commit/73f98e4e8dea53ece4a617b042f9d817643b4850) - **docs:** update related packages sections [(#1150)](https://github.com/stdlib-js/stdlib/pull/1150) _(by stdlib-bot)_
--   [`78a556e`](https://github.com/stdlib-js/stdlib/commit/78a556efa2f1da29eb9081d393f5768ad1518117) - **docs:** update related packages sections [(##1145)](#1145) _(by stdlib-bot)_
--   [`1b31b43`](https://github.com/stdlib-js/stdlib/commit/1b31b437442c7d861aadf0e5ee00bb86cc191982) - **docs:** update namespace table of contents [(##1138)](#1138) _(by stdlib-bot, Athan Reines)_
--   [`5d6b573`](https://github.com/stdlib-js/stdlib/commit/5d6b573040bf6551f3f460ba9570ea5d9567cb84) - **feat:** add `add5` to namespace _(by Athan Reines)_
--   [`b11b3fb`](https://github.com/stdlib-js/stdlib/commit/b11b3fbf45728f7456757b5147e45f17f4bf49f1) - **feat:** add `math/base/ops/add5` _(by Athan Reines)_
--   [`1cba14e`](https://github.com/stdlib-js/stdlib/commit/1cba14e2370f9a50078713f9ac8ad1bf119bc01c) - **feat:** add `add4` to namespace _(by Athan Reines)_
--   [`b88e712`](https://github.com/stdlib-js/stdlib/commit/b88e7127d936b4d55e02afa8a47bd7a1302c0369) - **feat:** add `math/base/ops/add4` _(by Athan Reines)_
--   [`9dd4da3`](https://github.com/stdlib-js/stdlib/commit/9dd4da3d3eff22c863ed009cc6a909ad524e2b83) - **docs:** update namespace table of contents [(#1136)](https://github.com/stdlib-js/stdlib/pull/1136) _(by stdlib-bot, Philipp Burckhardt)_
--   [`5c48417`](https://github.com/stdlib-js/stdlib/commit/5c48417bea1eb163504f2b38d6e4ff48fd269382) - **feat:** update namespace TypeScript declarations [(#1134)](https://github.com/stdlib-js/stdlib/pull/1134) _(by stdlib-bot, Philipp Burckhardt)_
--   [`4dd6a68`](https://github.com/stdlib-js/stdlib/commit/4dd6a6836e33c7646ae7a6ce1d629b66b1b96e76) - **feat:** add `add3` to namespace _(by Athan Reines)_
--   [`b1b4604`](https://github.com/stdlib-js/stdlib/commit/b1b46040bff6549e7d3652bacfb87641a169772c) - **feat:** add `math/base/ops/add3` _(by Athan Reines)_
--   [`252ce69`](https://github.com/stdlib-js/stdlib/commit/252ce69eebed888c9fd70e7d7cb774892d49542a) - **feat:** add `divf` to namespace _(by Athan Reines)_
--   [`a967398`](https://github.com/stdlib-js/stdlib/commit/a967398cd29d0dd88ab2121e35bc4909e455b835) - **feat:** add `math/base/ops/divf` _(by Athan Reines)_
--   [`942be90`](https://github.com/stdlib-js/stdlib/commit/942be9085906fa7e87fa41fc5486a7a0d4d42953) - **docs:** remove duplicate minus sign _(by Athan Reines)_
--   [`4bcbffb`](https://github.com/stdlib-js/stdlib/commit/4bcbffbe6621aabfde24fa5382440c2b4a434165) - **feat:** add `cnegf` to namespace _(by Athan Reines)_
--   [`749152f`](https://github.com/stdlib-js/stdlib/commit/749152f1c8d8f39b4d2f8e2f45ac8ab74dbb5a3c) - **feat:** add `div` to namespace _(by Athan Reines)_
--   [`b28d2a9`](https://github.com/stdlib-js/stdlib/commit/b28d2a9660fa7190070a17305e9ffdf694be74bf) - **feat:** add `math/base/ops/div` _(by Athan Reines)_
--   [`37c6c77`](https://github.com/stdlib-js/stdlib/commit/37c6c77ce78430486c95f3034dd1c836fac8b65d) - **style:** resolve C lint errors _(by Athan Reines)_
--   [`9502ed2`](https://github.com/stdlib-js/stdlib/commit/9502ed27e2853e312c556a48bdd7775095e66709) - **build:** replace tslint directive with eslint equivalent _(by Philipp Burckhardt)_
--   [`7eb7d96`](https://github.com/stdlib-js/stdlib/commit/7eb7d96f3860d0b1229b905caceb1b6641ee43c5) - **docs:** update links _(by Athan Reines)_
--   [`d73bbf4`](https://github.com/stdlib-js/stdlib/commit/d73bbf43d222f935085f8ecf7526e5f57835f74e) - **build:** replace lint directives _(by Philipp Burckhardt)_
 -   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
 -   [`1f04214`](https://github.com/stdlib-js/stdlib/commit/1f042141f219a7a3f010e488264d6b0a94321c15) - **fix:** update import path for `Collection` type definition _(by Athan Reines)_
 -   [`32a2827`](https://github.com/stdlib-js/stdlib/commit/32a282799ffd272d2a0554e81755a14923564e51) - **fix:** update import paths for complex type defs _(by Athan Reines)_
@@ -1410,6 +1875,138 @@ A total of 4 people contributed to this release. Thank you to the following cont
 -   [`c24499b`](https://github.com/stdlib-js/stdlib/commit/c24499b3805a869bcb6de3e7643a010f53c20f39) - **bench:** update benchmark name to match other pkg benchmarks _(by Athan Reines)_
 -   [`28e1c84`](https://github.com/stdlib-js/stdlib/commit/28e1c84390d88044883c9ef940a12f38d66ea3ef) - **docs:** resolve C lint errors _(by Athan Reines)_
 -   [`20f8809`](https://github.com/stdlib-js/stdlib/commit/20f8809022581a74a0d7d9643840c4ae7e7de7b5) - **chore:** update package meta data [(#911)](https://github.com/stdlib-js/stdlib/pull/911) _(by stdlib-bot, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.6 (2022-02-16)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.5 (2021-08-22)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.4 (2021-07-07)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.3 (2021-06-27)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.2 (2021-06-16)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.1 (2021-06-15)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
 
 </details>
 
