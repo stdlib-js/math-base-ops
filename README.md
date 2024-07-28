@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-ops/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { add, add3, add4, add5, addf, cadd, caddf, cdiv, cmul, cmulf, cneg, cnegf, csub, csubf, div, divf, imul, imuldw, mul, mulf, sub, subf, umul, umuldw } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@v0.3.0-esm/index.mjs';
+import { add, add3, add4, add5, addf, cadd, caddf, cdiv, cmul, cmulf, cneg, cnegf, csub, csubf, div, divf, imul, imuldw, mul, mulf, sub, subf, umul, umuldw } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@esm/index.mjs';
 ```
 
 #### ns
@@ -110,7 +115,7 @@ The namespace contains the following functions:
 <script type="module">
 
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@v0.3.0-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@esm/index.mjs';
 
 // Operations for double-precision floating point numbers:
 console.log( ns.add( 1.25, 0.45 ) );
