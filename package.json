@@ -63,7 +63,7 @@
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-base-filled-by": "^0.2.1",
+    "@stdlib/array-base-filled-by": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-complex128": "^0.2.2",
