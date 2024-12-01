@@ -4,11 +4,77 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-01)
+## Unreleased (2024-12-01)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="math-base-ops-cdiv-unreleased">
+
+#### [@stdlib/math/base/ops/cdiv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cdiv)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-cneg-unreleased">
+
+#### [@stdlib/math/base/ops/cneg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cneg)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-cnegf-unreleased">
+
+#### [@stdlib/math/base/ops/cnegf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cnegf)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 </section>
 
@@ -32,6 +98,9 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - **revert:** chore: update to modern benchmark Makefile _(by Philipp Burckhardt)_
+-   [`184d71f`](https://github.com/stdlib-js/stdlib/commit/184d71f0d04083ef6e64b641eccfc322273f544c) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`b89c97c`](https://github.com/stdlib-js/stdlib/commit/b89c97ce0b812ff0b2aab16b4d77969d44fe3e8c) - **docs:** resolve lint errors in TS declaration files _(by Philipp Burckhardt)_
 
 </details>
