@@ -78,7 +78,7 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`add( x, y )`][@stdlib/math/base/ops/add]</span><span class="delimiter">: </span><span class="description">compute the sum of two double-precision floating-point numbers.</span>
+-   <span class="signature">[`add( x, y )`][@stdlib/number/float64/base/add]</span><span class="delimiter">: </span><span class="description">compute the sum of two double-precision floating-point numbers.</span>
 -   <span class="signature">[`add3( x, y, z )`][@stdlib/math/base/ops/add3]</span><span class="delimiter">: </span><span class="description">compute the sum of three double-precision floating-point numbers.</span>
 -   <span class="signature">[`add4( x, y, z, w )`][@stdlib/math/base/ops/add4]</span><span class="delimiter">: </span><span class="description">compute the sum of four double-precision floating-point numbers.</span>
 -   <span class="signature">[`add5( x, y, z, w, u )`][@stdlib/math/base/ops/add5]</span><span class="delimiter">: </span><span class="description">compute the sum of five double-precision floating-point numbers.</span>
@@ -118,10 +118,6 @@ The namespace contains the following functions:
 ```javascript
 var Complex128 = require( '@stdlib/complex-float64-ctor' );
 var ns = require( '@stdlib/math-base-ops' );
-
-// Operations for double-precision floating point numbers:
-console.log( ns.add( 1.25, 0.45 ) );
-// => 1.7
 
 console.log( ns.sub( 1.25, 0.45 ) );
 // => 0.8
@@ -241,7 +237,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/ops/add]: https://github.com/stdlib-js/math-base-ops-add
+[@stdlib/number/float64/base/add]: https://github.com/stdlib-js/number-float64-base-add
 
 [@stdlib/math/base/ops/add3]: https://github.com/stdlib-js/math-base-ops-add3
 
