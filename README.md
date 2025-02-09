@@ -78,9 +78,6 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`add( x, y )`][@stdlib/number/float64/base/add]</span><span class="delimiter">: </span><span class="description">compute the sum of two double-precision floating-point numbers.</span>
--   <span class="signature">[`add3( x, y, z )`][@stdlib/number/float64/base/add3]</span><span class="delimiter">: </span><span class="description">compute the sum of three double-precision floating-point numbers.</span>
--   <span class="signature">[`add4( x, y, z, w )`][@stdlib/number/float64/base/add4]</span><span class="delimiter">: </span><span class="description">compute the sum of four double-precision floating-point numbers.</span>
 -   <span class="signature">[`add5( x, y, z, w, u )`][@stdlib/math/base/ops/add5]</span><span class="delimiter">: </span><span class="description">compute the sum of five double-precision floating-point numbers.</span>
 -   <span class="signature">[`addf( x, y )`][@stdlib/math/base/ops/addf]</span><span class="delimiter">: </span><span class="description">compute the sum of two single-precision floating-point numbers.</span>
 -   <span class="signature">[`cdiv( z1, z2 )`][@stdlib/math/base/ops/cdiv]</span><span class="delimiter">: </span><span class="description">divide two double-precision complex floating-point numbers.</span>
@@ -236,12 +233,6 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-ops/main/LICENSE
 
 <!-- <toc-links> -->
-
-[@stdlib/number/float64/base/add]: https://github.com/stdlib-js/number-float64-base-add
-
-[@stdlib/number/float64/base/add3]: https://github.com/stdlib-js/number-float64-base-add3
-
-[@stdlib/number/float64/base/add4]: https://github.com/stdlib-js/number-float64-base-add4
 
 [@stdlib/math/base/ops/add5]: https://github.com/stdlib-js/math-base-ops-add5
 
