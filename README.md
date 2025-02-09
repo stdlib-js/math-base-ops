@@ -35,32 +35,38 @@ limitations under the License.
 
 > Base (i.e., lower-level) math operators.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-ops
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var ns = require( '@stdlib/math-base-ops' );
+ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var ns = require( 'path/to/vendor/umd/math-base-ops/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.ns;
+})();
+</script>
 ```
 
 #### ns
@@ -112,9 +118,14 @@ The namespace contains the following functions:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var Complex128 = require( '@stdlib/complex-float64-ctor' );
-var ns = require( '@stdlib/math-base-ops' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( ns.sub( 1.25, 0.45 ) );
 // => 0.8
@@ -146,6 +157,11 @@ console.log( ns.umul( 2147483648>>>0, 5>>>0 ) );
 // -(2^31) * 2^30 = -2305843009213694000 => 32-bit integer overflow
 console.log( ns.imuldw( 0x80000000|0, 0x40000000|0 ) );
 // => [ -536870912, 0 ]
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -234,39 +250,39 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/ops/add5]: https://github.com/stdlib-js/math-base-ops-add5
+[@stdlib/math/base/ops/add5]: https://github.com/stdlib-js/math-base-ops-add5/tree/umd
 
-[@stdlib/math/base/ops/addf]: https://github.com/stdlib-js/math-base-ops-addf
+[@stdlib/math/base/ops/addf]: https://github.com/stdlib-js/math-base-ops-addf/tree/umd
 
-[@stdlib/math/base/ops/cdiv]: https://github.com/stdlib-js/math-base-ops-cdiv
+[@stdlib/math/base/ops/cdiv]: https://github.com/stdlib-js/math-base-ops-cdiv/tree/umd
 
-[@stdlib/math/base/ops/cneg]: https://github.com/stdlib-js/math-base-ops-cneg
+[@stdlib/math/base/ops/cneg]: https://github.com/stdlib-js/math-base-ops-cneg/tree/umd
 
-[@stdlib/math/base/ops/cnegf]: https://github.com/stdlib-js/math-base-ops-cnegf
+[@stdlib/math/base/ops/cnegf]: https://github.com/stdlib-js/math-base-ops-cnegf/tree/umd
 
-[@stdlib/math/base/ops/csub]: https://github.com/stdlib-js/math-base-ops-csub
+[@stdlib/math/base/ops/csub]: https://github.com/stdlib-js/math-base-ops-csub/tree/umd
 
-[@stdlib/math/base/ops/csubf]: https://github.com/stdlib-js/math-base-ops-csubf
+[@stdlib/math/base/ops/csubf]: https://github.com/stdlib-js/math-base-ops-csubf/tree/umd
 
-[@stdlib/math/base/ops/div]: https://github.com/stdlib-js/math-base-ops-div
+[@stdlib/math/base/ops/div]: https://github.com/stdlib-js/math-base-ops-div/tree/umd
 
-[@stdlib/math/base/ops/divf]: https://github.com/stdlib-js/math-base-ops-divf
+[@stdlib/math/base/ops/divf]: https://github.com/stdlib-js/math-base-ops-divf/tree/umd
 
-[@stdlib/math/base/ops/imul]: https://github.com/stdlib-js/math-base-ops-imul
+[@stdlib/math/base/ops/imul]: https://github.com/stdlib-js/math-base-ops-imul/tree/umd
 
-[@stdlib/math/base/ops/imuldw]: https://github.com/stdlib-js/math-base-ops-imuldw
+[@stdlib/math/base/ops/imuldw]: https://github.com/stdlib-js/math-base-ops-imuldw/tree/umd
 
-[@stdlib/math/base/ops/mul]: https://github.com/stdlib-js/math-base-ops-mul
+[@stdlib/math/base/ops/mul]: https://github.com/stdlib-js/math-base-ops-mul/tree/umd
 
-[@stdlib/math/base/ops/mulf]: https://github.com/stdlib-js/math-base-ops-mulf
+[@stdlib/math/base/ops/mulf]: https://github.com/stdlib-js/math-base-ops-mulf/tree/umd
 
-[@stdlib/math/base/ops/sub]: https://github.com/stdlib-js/math-base-ops-sub
+[@stdlib/math/base/ops/sub]: https://github.com/stdlib-js/math-base-ops-sub/tree/umd
 
-[@stdlib/math/base/ops/subf]: https://github.com/stdlib-js/math-base-ops-subf
+[@stdlib/math/base/ops/subf]: https://github.com/stdlib-js/math-base-ops-subf/tree/umd
 
-[@stdlib/math/base/ops/umul]: https://github.com/stdlib-js/math-base-ops-umul
+[@stdlib/math/base/ops/umul]: https://github.com/stdlib-js/math-base-ops-umul/tree/umd
 
-[@stdlib/math/base/ops/umuldw]: https://github.com/stdlib-js/math-base-ops-umuldw
+[@stdlib/math/base/ops/umuldw]: https://github.com/stdlib-js/math-base-ops-umuldw/tree/umd
 
 <!-- </toc-links> -->
 
