@@ -57,7 +57,8 @@
     "@stdlib/math-base-ops-subf": "^0.2.2",
     "@stdlib/math-base-ops-umul": "^0.2.2",
     "@stdlib/math-base-ops-umuldw": "^0.2.2",
-    "@stdlib/utils-define-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-base-filled-by": "^0.2.2",
