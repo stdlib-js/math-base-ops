@@ -1111,6 +1111,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`c813d0a`](https://github.com/stdlib-js/stdlib/commit/c813d0aa99426f802689af745dd16ccb3929a3d9) - **docs:** update namespace TypeScript declarations [(#5308)](https://github.com/stdlib-js/stdlib/pull/5308) _(by stdlib-bot)_
 -   [`3037993`](https://github.com/stdlib-js/stdlib/commit/3037993cc6603fedea48ca6612edc7462dce2a91) - **docs:** update namespace table of contents [(#5310)](https://github.com/stdlib-js/stdlib/pull/5310) _(by stdlib-bot)_
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - **feat:** update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254) _(by stdlib-bot)_
 -   [`ec08225`](https://github.com/stdlib-js/stdlib/commit/ec0822505673b3032e591de02a9e0dc67b598f81) - **remove:** remove `math/base/ops/addf` _(by Gururaj Gurram)_
