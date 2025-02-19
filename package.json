@@ -45,7 +45,6 @@
     "@stdlib/math-base-ops-cnegf": "^0.2.2",
     "@stdlib/math-base-ops-csub": "^0.2.2",
     "@stdlib/math-base-ops-csubf": "^0.2.2",
-    "@stdlib/math-base-ops-div": "^0.2.2",
     "@stdlib/math-base-ops-divf": "^0.2.2",
     "@stdlib/math-base-ops-imul": "^0.2.2",
     "@stdlib/math-base-ops-imuldw": "^0.2.2",
@@ -55,6 +54,7 @@
     "@stdlib/math-base-ops-umul": "^0.2.2",
     "@stdlib/math-base-ops-umuldw": "^0.2.2",
     "@stdlib/number-float32-base-add": "github:stdlib-js/number-float32-base-add#main",
+    "@stdlib/number-float64-base-div": "github:stdlib-js/number-float64-base-div#main",
     "@stdlib/number-float64-base-mul": "github:stdlib-js/number-float64-base-mul#main",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },

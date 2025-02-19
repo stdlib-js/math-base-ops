@@ -83,7 +83,7 @@ The namespace contains the following functions:
 -   <span class="signature">[`cnegf( z )`][@stdlib/math/base/ops/cnegf]</span><span class="delimiter">: </span><span class="description">negate a single-precision complex floating-point number.</span>
 -   <span class="signature">[`csub( z1, z2 )`][@stdlib/math/base/ops/csub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision complex floating-point numbers.</span>
 -   <span class="signature">[`csubf( z1, z2 )`][@stdlib/math/base/ops/csubf]</span><span class="delimiter">: </span><span class="description">subtract two single-precision complex floating-point numbers.</span>
--   <span class="signature">[`div( x, y )`][@stdlib/math/base/ops/div]</span><span class="delimiter">: </span><span class="description">divide two double-precision floating-point numbers.</span>
+-   <span class="signature">[`div( x, y )`][@stdlib/number/float64/base/div]</span><span class="delimiter">: </span><span class="description">divide two double-precision floating-point numbers.</span>
 -   <span class="signature">[`divf( x, y )`][@stdlib/math/base/ops/divf]</span><span class="delimiter">: </span><span class="description">divide two single-precision floating-point numbers.</span>
 -   <span class="signature">[`imul( a, b )`][@stdlib/math/base/ops/imul]</span><span class="delimiter">: </span><span class="description">perform C-like multiplication of two signed 32-bit integers.</span>
 -   <span class="signature">[`imuldw( a, b )`][@stdlib/math/base/ops/imuldw]</span><span class="delimiter">: </span><span class="description">compute the double word product of two signed 32-bit integers.</span>
@@ -242,7 +242,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/math/base/ops/csubf]: https://github.com/stdlib-js/math-base-ops-csubf
 
-[@stdlib/math/base/ops/div]: https://github.com/stdlib-js/math-base-ops-div
+[@stdlib/number/float64/base/div]: https://github.com/stdlib-js/number-float64-base-div
 
 [@stdlib/math/base/ops/divf]: https://github.com/stdlib-js/math-base-ops-divf
 
