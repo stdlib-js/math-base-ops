@@ -1657,6 +1657,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`bf18c77`](https://github.com/stdlib-js/stdlib/commit/bf18c7705ea5e96e733a13f20844bf975a4dac18) - **docs:** update namespace table of contents [(#5351)](https://github.com/stdlib-js/stdlib/pull/5351) _(by stdlib-bot)_
 -   [`35875b3`](https://github.com/stdlib-js/stdlib/commit/35875b3b4162a530c02e72e8444589053fd1cb2d) - **remove:** remove `math/base/ops/sub` _(by Gururaj Gurram)_
 -   [`92761ec`](https://github.com/stdlib-js/stdlib/commit/92761ec746d55b5cd6d48a06276b5e1bffe2cfb0) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`13fc14e`](https://github.com/stdlib-js/stdlib/commit/13fc14e776090d0c8917b7a7a4757dd8b9051d71) - **docs:** update namespace table of contents [(#5332)](https://github.com/stdlib-js/stdlib/pull/5332) _(by stdlib-bot)_
