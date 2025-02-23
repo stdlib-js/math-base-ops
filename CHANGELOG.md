@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-22)
+## Unreleased (2025-02-23)
 
 <section class="packages">
 
@@ -1839,6 +1839,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`afbe56b`](https://github.com/stdlib-js/stdlib/commit/afbe56bcdf992a969b20a912828b42d0cdbe717a) - **docs:** update namespace table of contents [(#5387)](https://github.com/stdlib-js/stdlib/pull/5387) _(by stdlib-bot)_
 -   [`72c6513`](https://github.com/stdlib-js/stdlib/commit/72c6513ad86ddf20c6fe38ecabbbf2b17a112582) - **remove:** remove `math/base/ops/divf` _(by Gururaj Gurram)_
 -   [`adbcf39`](https://github.com/stdlib-js/stdlib/commit/adbcf39b36d49a9c2876bdc2848e9dac842cf90f) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`54ed22a`](https://github.com/stdlib-js/stdlib/commit/54ed22a2eb989926f99680f33bd8bf700d5759b0) - **docs:** update namespace TypeScript declarations [(#5330)](https://github.com/stdlib-js/stdlib/pull/5330) _(by stdlib-bot)_
