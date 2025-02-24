@@ -47,7 +47,6 @@
     "@stdlib/math-base-ops-csubf": "^0.2.2",
     "@stdlib/math-base-ops-imul": "^0.2.2",
     "@stdlib/math-base-ops-imuldw": "^0.2.2",
-    "@stdlib/math-base-ops-mulf": "^0.2.2",
     "@stdlib/math-base-ops-subf": "^0.2.2",
     "@stdlib/math-base-ops-umul": "^0.2.2",
     "@stdlib/math-base-ops-umuldw": "^0.2.2",
