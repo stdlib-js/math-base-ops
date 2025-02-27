@@ -86,7 +86,7 @@ The namespace contains the following functions:
 -   <span class="signature">[`imul( a, b )`][@stdlib/math/base/ops/imul]</span><span class="delimiter">: </span><span class="description">perform C-like multiplication of two signed 32-bit integers.</span>
 -   <span class="signature">[`imuldw( a, b )`][@stdlib/math/base/ops/imuldw]</span><span class="delimiter">: </span><span class="description">compute the double word product of two signed 32-bit integers.</span>
 -   <span class="signature">[`subf( x, y )`][@stdlib/number/float32/base/sub]</span><span class="delimiter">: </span><span class="description">subtract two single-precision floating-point numbers.</span>
--   <span class="signature">[`umul( a, b )`][@stdlib/math/base/ops/umul]</span><span class="delimiter">: </span><span class="description">perform C-like multiplication of two unsigned 32-bit integers.</span>
+-   <span class="signature">[`umul( a, b )`][@stdlib/number/uint32/base/mul]</span><span class="delimiter">: </span><span class="description">perform C-like multiplication of two unsigned 32-bit integers.</span>
 -   <span class="signature">[`umuldw( a, b )`][@stdlib/math/base/ops/umuldw]</span><span class="delimiter">: </span><span class="description">compute the double word product of two unsigned 32-bit integers.</span>
 
 </div>
@@ -125,11 +125,6 @@ console.log( ns.cmul( z1, z2 ) ); // { 're': -13.0, 'im': -1.0 }
 // 2^30 * -5 = -5368709120 => 32-bit integer overflow
 console.log( ns.imul( 1073741824|0, -5|0 ) );
 // => -1073741824
-
-// Operations for unsigned 32-bit integers:
-// 2^31 * 5 = 10737418240 => 32-bit integer overflow
-console.log( ns.umul( 2147483648>>>0, 5>>>0 ) );
-// => 2147483648
 
 // Operations for double word product:
 // -(2^31) * 2^30 = -2305843009213694000 => 32-bit integer overflow
@@ -239,7 +234,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/number/float32/base/sub]: https://github.com/stdlib-js/number-float32-base-sub
 
-[@stdlib/math/base/ops/umul]: https://github.com/stdlib-js/math-base-ops-umul
+[@stdlib/number/uint32/base/mul]: https://github.com/stdlib-js/number-uint32-base-mul
 
 [@stdlib/math/base/ops/umuldw]: https://github.com/stdlib-js/math-base-ops-umuldw
 
