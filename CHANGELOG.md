@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-27)
+## Unreleased (2025-02-28)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799) - update namespace TypeScript declarations [(#5511)](https://github.com/stdlib-js/stdlib/pull/5511)
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385)
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
@@ -33,6 +34,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799): remove `mulf` from `math/base/ops` namespace
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
 
 -   [`ba7f7ab`](https://github.com/stdlib-js/stdlib/commit/ba7f7ab1afb8f31f763f21ddfaae4937e333d757): remove `umul`
 
@@ -1520,6 +1525,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799): remove `mulf` from `math/base/ops` namespace
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
+
 -   [`29cc785`](https://github.com/stdlib-js/stdlib/commit/29cc785ee4c0d56aff6a5a2dda3dbf9ad90fbc71): remove `math/base/ops/umul`
 
     -   To migrate, users should update their require/import paths to use
@@ -2694,6 +2703,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799) - **feat:** update namespace TypeScript declarations [(#5511)](https://github.com/stdlib-js/stdlib/pull/5511) _(by stdlib-bot)_
 -   [`29cc785`](https://github.com/stdlib-js/stdlib/commit/29cc785ee4c0d56aff6a5a2dda3dbf9ad90fbc71) - **remove:** remove `math/base/ops/umul` _(by Gururaj Gurram)_
 -   [`5260d13`](https://github.com/stdlib-js/stdlib/commit/5260d1347c8cd3f669d47dabe8cc6f954809bb27) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`ba7f7ab`](https://github.com/stdlib-js/stdlib/commit/ba7f7ab1afb8f31f763f21ddfaae4937e333d757) - **remove:** remove `umul` from namespace _(by Gururaj Gurram)_
