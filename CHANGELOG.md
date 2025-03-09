@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-08)
+## Unreleased (2025-03-09)
 
 <section class="packages">
 
@@ -34,6 +34,56 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`b2228a8`](https://github.com/stdlib-js/stdlib/commit/b2228a8607c4ec969a1896b69ba40157bcf8e16c): remove `imuldw`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-int32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`b70a6d6`](https://github.com/stdlib-js/stdlib/commit/b70a6d61be09792e9f7b51815223bfab2b3139b2): remove `imul`
 
@@ -1145,6 +1195,66 @@
 
 <details>
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`b2a6bb8`](https://github.com/stdlib-js/stdlib/commit/b2a6bb80465a0d6dcc78f4edaddf719e62d89004): remove `math/base/ops/imuldw`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-int32/base/muldw` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -1675,6 +1785,108 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`b2a6bb8`](https://github.com/stdlib-js/stdlib/commit/b2a6bb80465a0d6dcc78f4edaddf719e62d89004): remove `math/base/ops/imuldw`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-int32/base/muldw` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`b2228a8`](https://github.com/stdlib-js/stdlib/commit/b2228a8607c4ec969a1896b69ba40157bcf8e16c): remove `imuldw`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-int32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`b830e28`](https://github.com/stdlib-js/stdlib/commit/b830e280f9d2df36f473527b62418539844229c9): remove `math/base/ops/imul`
 
@@ -2985,6 +3197,9 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b2a6bb8`](https://github.com/stdlib-js/stdlib/commit/b2a6bb80465a0d6dcc78f4edaddf719e62d89004) - **remove:** remove `math/base/ops/imuldw` _(by Gururaj Gurram)_
+-   [`9a6831e`](https://github.com/stdlib-js/stdlib/commit/9a6831eb31d985baec5ca19f5286e5756bacad8f) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`b2228a8`](https://github.com/stdlib-js/stdlib/commit/b2228a8607c4ec969a1896b69ba40157bcf8e16c) - **remove:** remove `imuldw` from namespace _(by Gururaj Gurram)_
 -   [`1229ea7`](https://github.com/stdlib-js/stdlib/commit/1229ea77f838afd290122ab1470796312785be9a) - **remove:** remove `addf` from namespace [(#5737)](https://github.com/stdlib-js/stdlib/pull/5737) _(by Gururaj Gurram)_
 -   [`b830e28`](https://github.com/stdlib-js/stdlib/commit/b830e280f9d2df36f473527b62418539844229c9) - **remove:** remove `math/base/ops/imul` _(by Gururaj Gurram)_
 -   [`2540748`](https://github.com/stdlib-js/stdlib/commit/2540748e5850b4f7e8268904faeec1f2e9cb7bfd) - **refactor:** update paths _(by Gururaj Gurram)_
