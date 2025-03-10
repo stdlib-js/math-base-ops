@@ -83,7 +83,6 @@ The namespace contains the following functions:
 -   <span class="signature">[`cnegf( z )`][@stdlib/math/base/ops/cnegf]</span><span class="delimiter">: </span><span class="description">negate a single-precision complex floating-point number.</span>
 -   <span class="signature">[`csub( z1, z2 )`][@stdlib/math/base/ops/csub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision complex floating-point numbers.</span>
 -   <span class="signature">[`csubf( z1, z2 )`][@stdlib/math/base/ops/csubf]</span><span class="delimiter">: </span><span class="description">subtract two single-precision complex floating-point numbers.</span>
--   <span class="signature">[`umuldw( a, b )`][@stdlib/math/base/ops/umuldw]</span><span class="delimiter">: </span><span class="description">compute the double word product of two unsigned 32-bit integers.</span>
 
 </div>
 
@@ -213,8 +212,6 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/ops/csub]: https://github.com/stdlib-js/math-base-ops-csub
 
 [@stdlib/math/base/ops/csubf]: https://github.com/stdlib-js/math-base-ops-csubf
-
-[@stdlib/math/base/ops/umuldw]: https://github.com/stdlib-js/math-base-ops-umuldw
 
 <!-- </toc-links> -->
 
