@@ -45,7 +45,6 @@
     "@stdlib/math-base-ops-cnegf": "^0.2.2",
     "@stdlib/math-base-ops-csub": "^0.2.2",
     "@stdlib/math-base-ops-csubf": "^0.2.2",
-    "@stdlib/number-float32-base-div": "github:stdlib-js/number-float32-base-div#main",
     "@stdlib/number-float64-base-div": "github:stdlib-js/number-float64-base-div#main",
     "@stdlib/number-float64-base-mul": "github:stdlib-js/number-float64-base-mul#main",
     "@stdlib/number-float64-base-sub": "github:stdlib-js/number-float64-base-sub#main",

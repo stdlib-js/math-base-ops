@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-10)
+## Unreleased (2025-03-12)
 
 <section class="packages">
 
@@ -3421,6 +3421,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`daee91a`](https://github.com/stdlib-js/stdlib/commit/daee91a9b272effbc3d8801225957d2bbb5b44b2) - **remove:** remove `divf` from namespace [(#5958)](https://github.com/stdlib-js/stdlib/pull/5958) _(by Gururaj Gurram)_
 -   [`83b446f`](https://github.com/stdlib-js/stdlib/commit/83b446ffb685852b7d1d7d339a8e68c36b46a330) - **docs:** update namespace table of contents [(#5907)](https://github.com/stdlib-js/stdlib/pull/5907) _(by stdlib-bot)_
 -   [`7398503`](https://github.com/stdlib-js/stdlib/commit/7398503d9c24fd184ec56f06181fa28f3a32aac0) - **remove:** remove `math/base/ops/umuldw` _(by Gururaj Gurram)_
 -   [`b709cec`](https://github.com/stdlib-js/stdlib/commit/b709cec2e463ba1af5406e3c08a219036941dd09) - **refactor:** update paths _(by Gururaj Gurram)_
