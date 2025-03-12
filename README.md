@@ -78,7 +78,7 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`cdiv( z1, z2 )`][@stdlib/math/base/ops/cdiv]</span><span class="delimiter">: </span><span class="description">divide two double-precision complex floating-point numbers.</span>
+-   <span class="signature">[`cdiv( z1, z2 )`][@stdlib/complex/float64/base/div]</span><span class="delimiter">: </span><span class="description">divide two double-precision complex floating-point numbers.</span>
 -   <span class="signature">[`cneg( z )`][@stdlib/math/base/ops/cneg]</span><span class="delimiter">: </span><span class="description">negate a double-precision complex floating-point number.</span>
 -   <span class="signature">[`cnegf( z )`][@stdlib/math/base/ops/cnegf]</span><span class="delimiter">: </span><span class="description">negate a single-precision complex floating-point number.</span>
 -   <span class="signature">[`csub( z1, z2 )`][@stdlib/math/base/ops/csub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision complex floating-point numbers.</span>
@@ -203,7 +203,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/ops/cdiv]: https://github.com/stdlib-js/math-base-ops-cdiv
+[@stdlib/complex/float64/base/div]: https://github.com/stdlib-js/complex-float64-base-div
 
 [@stdlib/math/base/ops/cneg]: https://github.com/stdlib-js/math-base-ops-cneg
 

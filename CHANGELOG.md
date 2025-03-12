@@ -35,6 +35,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`ec9247d`](https://github.com/stdlib-js/stdlib/commit/ec9247d8f9fdefc32a28a68ed0bbae29898f5c81): remove `cdiv`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`782bbfd`](https://github.com/stdlib-js/stdlib/commit/782bbfd4fca9765fc4a916aa2a4d4701647c7a19): remove `umuldw`
 
     -   To migrate, users should access the same symbol via the
@@ -885,6 +935,66 @@
 </section>
 
 <!-- /.reverts -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`9752725`](https://github.com/stdlib-js/stdlib/commit/9752725fc04e4a14c4460d3ef7e188ad80bb3d60): remove `math/base/ops/cdiv`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/div` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1907,6 +2017,108 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`9752725`](https://github.com/stdlib-js/stdlib/commit/9752725fc04e4a14c4460d3ef7e188ad80bb3d60): remove `math/base/ops/cdiv`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/div` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`ec9247d`](https://github.com/stdlib-js/stdlib/commit/ec9247d8f9fdefc32a28a68ed0bbae29898f5c81): remove `cdiv`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`7398503`](https://github.com/stdlib-js/stdlib/commit/7398503d9c24fd184ec56f06181fa28f3a32aac0): remove `math/base/ops/umuldw`
 
@@ -3421,6 +3633,9 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`9752725`](https://github.com/stdlib-js/stdlib/commit/9752725fc04e4a14c4460d3ef7e188ad80bb3d60) - **remove:** remove `math/base/ops/cdiv` _(by Gururaj Gurram)_
+-   [`3bad287`](https://github.com/stdlib-js/stdlib/commit/3bad287c1589abf75463bbb43311c22d4a991c22) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ec9247d`](https://github.com/stdlib-js/stdlib/commit/ec9247d8f9fdefc32a28a68ed0bbae29898f5c81) - **remove:** remove `cdiv` from namespace _(by Gururaj Gurram)_
 -   [`daee91a`](https://github.com/stdlib-js/stdlib/commit/daee91a9b272effbc3d8801225957d2bbb5b44b2) - **remove:** remove `divf` from namespace [(#5958)](https://github.com/stdlib-js/stdlib/pull/5958) _(by Gururaj Gurram)_
 -   [`83b446f`](https://github.com/stdlib-js/stdlib/commit/83b446ffb685852b7d1d7d339a8e68c36b46a330) - **docs:** update namespace table of contents [(#5907)](https://github.com/stdlib-js/stdlib/pull/5907) _(by stdlib-bot)_
 -   [`7398503`](https://github.com/stdlib-js/stdlib/commit/7398503d9c24fd184ec56f06181fa28f3a32aac0) - **remove:** remove `math/base/ops/umuldw` _(by Gururaj Gurram)_
