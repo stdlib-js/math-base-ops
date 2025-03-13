@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-12)
+## Unreleased (2025-03-13)
 
 <section class="packages">
 
@@ -3617,9 +3617,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Athan Reines
 -   Gururaj Gurram
 -   Philipp Burckhardt
 
@@ -3633,6 +3634,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`216ed03`](https://github.com/stdlib-js/stdlib/commit/216ed034f920b72bd4ffc82724285333d28e33cc) - **docs:** update namespace table of contents [(#6010)](https://github.com/stdlib-js/stdlib/pull/6010) _(by stdlib-bot, Athan Reines)_
 -   [`9752725`](https://github.com/stdlib-js/stdlib/commit/9752725fc04e4a14c4460d3ef7e188ad80bb3d60) - **remove:** remove `math/base/ops/cdiv` _(by Gururaj Gurram)_
 -   [`3bad287`](https://github.com/stdlib-js/stdlib/commit/3bad287c1589abf75463bbb43311c22d4a991c22) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`ec9247d`](https://github.com/stdlib-js/stdlib/commit/ec9247d8f9fdefc32a28a68ed0bbae29898f5c81) - **remove:** remove `cdiv` from namespace _(by Gururaj Gurram)_
