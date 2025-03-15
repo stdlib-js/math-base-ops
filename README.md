@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) math operators.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-ops
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/math-base-ops/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/math-base-ops' );
 ```
 
 #### ns
@@ -85,7 +79,7 @@ The namespace contains the following functions:
 <div class="namespace-toc">
 
 -   <span class="signature">[`csub( z1, z2 )`][@stdlib/complex/float64/base/sub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision complex floating-point numbers.</span>
--   <span class="signature">[`csubf( z1, z2 )`][@stdlib/math/base/ops/csubf]</span><span class="delimiter">: </span><span class="description">subtract two single-precision complex floating-point numbers.</span>
+-   <span class="signature">[`csubf( z1, z2 )`][@stdlib/complex/float32/base/sub]</span><span class="delimiter">: </span><span class="description">subtract two single-precision complex floating-point numbers.</span>
 
 </div>
 
@@ -103,20 +97,10 @@ The namespace contains the following functions:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var ns = require( '@stdlib/math-base-ops' );
 
 console.log( ns );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -205,9 +189,9 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/complex/float64/base/sub]: https://github.com/stdlib-js/complex-float64-base-sub/tree/umd
+[@stdlib/complex/float64/base/sub]: https://github.com/stdlib-js/complex-float64-base-sub
 
-[@stdlib/math/base/ops/csubf]: https://github.com/stdlib-js/math-base-ops-csubf/tree/umd
+[@stdlib/complex/float32/base/sub]: https://github.com/stdlib-js/complex-float32-base-sub
 
 <!-- </toc-links> -->
 
