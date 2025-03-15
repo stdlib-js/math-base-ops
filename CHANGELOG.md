@@ -35,6 +35,10 @@
 
 ##### BREAKING CHANGES
 
+-   [`1066fde`](https://github.com/stdlib-js/stdlib/commit/1066fde79df3eaee809032eae0306bcb6aab1536): remove `mul`
+
+    -   To migrate, users should access the same symbol in the `number/float64/base` namespace.
+
 -   [`d631175`](https://github.com/stdlib-js/stdlib/commit/d631175c656a69d5f72f9c31789832508cb585be): remove `csub`
 
     -   To migrate, users should access the same symbol via the
@@ -2364,6 +2368,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`1066fde`](https://github.com/stdlib-js/stdlib/commit/1066fde79df3eaee809032eae0306bcb6aab1536): remove `mul`
+
+    -   To migrate, users should access the same symbol in the `number/float64/base` namespace.
+
 -   [`4f3510f`](https://github.com/stdlib-js/stdlib/commit/4f3510f0c5848aff37e1ce441543e2eb5e6eddd5): remove `math/base/ops/csub`
 
     -   To migrate, users should update their require/import paths to use
@@ -4290,6 +4298,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1066fde`](https://github.com/stdlib-js/stdlib/commit/1066fde79df3eaee809032eae0306bcb6aab1536) - **remove:** remove `mul` from namespace _(by Gururaj Gurram)_
 -   [`4f3510f`](https://github.com/stdlib-js/stdlib/commit/4f3510f0c5848aff37e1ce441543e2eb5e6eddd5) - **remove:** remove `math/base/ops/csub` _(by Gururaj Gurram)_
 -   [`c7c1fb3`](https://github.com/stdlib-js/stdlib/commit/c7c1fb325f010a77313c58bfd51598af47720d89) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`d631175`](https://github.com/stdlib-js/stdlib/commit/d631175c656a69d5f72f9c31789832508cb585be) - **remove:** remove `csub` from namespace _(by Gururaj Gurram)_

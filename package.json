@@ -41,7 +41,6 @@
     "@stdlib/complex-float64-base-add": "^0.1.0",
     "@stdlib/complex-float64-base-mul": "^0.1.0",
     "@stdlib/math-base-ops-csubf": "^0.2.2",
-    "@stdlib/number-float64-base-mul": "github:stdlib-js/number-float64-base-mul#main",
     "@stdlib/number-float64-base-sub": "github:stdlib-js/number-float64-base-sub#main",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
