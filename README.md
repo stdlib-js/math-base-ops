@@ -78,7 +78,6 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`cnegf( z )`][@stdlib/complex/float32/base/neg]</span><span class="delimiter">: </span><span class="description">negate a single-precision complex floating-point number.</span>
 -   <span class="signature">[`csub( z1, z2 )`][@stdlib/math/base/ops/csub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision complex floating-point numbers.</span>
 -   <span class="signature">[`csubf( z1, z2 )`][@stdlib/math/base/ops/csubf]</span><span class="delimiter">: </span><span class="description">subtract two single-precision complex floating-point numbers.</span>
 
@@ -189,8 +188,6 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-ops/main/LICENSE
 
 <!-- <toc-links> -->
-
-[@stdlib/complex/float32/base/neg]: https://github.com/stdlib-js/complex-float32-base-neg
 
 [@stdlib/math/base/ops/csub]: https://github.com/stdlib-js/math-base-ops-csub
 
