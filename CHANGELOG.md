@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-15)
+## Unreleased (2025-03-16)
 
 <section class="features">
 
@@ -34,6 +34,10 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`8f9dfb3`](https://github.com/stdlib-js/stdlib/commit/8f9dfb38f791c501d891bf62863866572054dcc3): remove `sub`
+
+    -   To migrate, users should access the same symbol via the `number/float64/base` namespace.
 
 -   [`39e505f`](https://github.com/stdlib-js/stdlib/commit/39e505f50432543c5e6c76c85392e59846ce58c6): remove `math/base/ops/csubf`
 
@@ -2052,6 +2056,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`8f9dfb3`](https://github.com/stdlib-js/stdlib/commit/8f9dfb38f791c501d891bf62863866572054dcc3) - **remove:** remove `sub` from namespace _(by Gururaj Gurram)_
 -   [`39e505f`](https://github.com/stdlib-js/stdlib/commit/39e505f50432543c5e6c76c85392e59846ce58c6) - **remove:** remove `math/base/ops/csubf` _(by Gururaj Gurram)_
 -   [`89ecfe0`](https://github.com/stdlib-js/stdlib/commit/89ecfe0212aef0448017f8e404a3862fda851170) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`9135b25`](https://github.com/stdlib-js/stdlib/commit/9135b2502ee1a115427811d3f318e61bfdabfbdb) - **remove:** remove `csubf` from namespace _(by Gururaj Gurram)_
