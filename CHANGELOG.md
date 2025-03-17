@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-16)
+## Unreleased (2025-03-17)
 
 <section class="features">
 
@@ -34,6 +34,11 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`6b695a6`](https://github.com/stdlib-js/stdlib/commit/6b695a65b8b621a980a7f452d9a2a63a2b3be848): remove `caddf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float32/base` namespace.
 
 -   [`8f9dfb3`](https://github.com/stdlib-js/stdlib/commit/8f9dfb38f791c501d891bf62863866572054dcc3): remove `sub`
 
@@ -2056,6 +2061,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`6b695a6`](https://github.com/stdlib-js/stdlib/commit/6b695a65b8b621a980a7f452d9a2a63a2b3be848) - **remove:** remove `caddf` from namespace [(#6120)](https://github.com/stdlib-js/stdlib/pull/6120) _(by Gururaj Gurram)_
 -   [`8f9dfb3`](https://github.com/stdlib-js/stdlib/commit/8f9dfb38f791c501d891bf62863866572054dcc3) - **remove:** remove `sub` from namespace _(by Gururaj Gurram)_
 -   [`39e505f`](https://github.com/stdlib-js/stdlib/commit/39e505f50432543c5e6c76c85392e59846ce58c6) - **remove:** remove `math/base/ops/csubf` _(by Gururaj Gurram)_
 -   [`89ecfe0`](https://github.com/stdlib-js/stdlib/commit/89ecfe0212aef0448017f8e404a3862fda851170) - **refactor:** update paths _(by Gururaj Gurram)_
